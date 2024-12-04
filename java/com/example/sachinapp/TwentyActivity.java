@@ -93,7 +93,7 @@ public class TwentyActivity extends AppCompatActivity {
     public void callNumber()
     {
         Intent callintent=new Intent(Intent.ACTION_DIAL);
-        callintent.setData(Uri.parse("tel:9259326294"));
+        callintent.setData(Uri.parse("tel:"));
         startActivity(callintent);
     }
 
